@@ -5,15 +5,22 @@
   margin: 0;
 }
 
-.btn{
-  display: inline-block;
-  min-width: 50px;
-  max-width: 100px;
+.container{
+  height: 100vh;
+  background-image: url(./../../assets/images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
 
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.heading{
+  padding-top: 100px;
 
-  font-size: 16px;
+  color: #fff;
+
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
